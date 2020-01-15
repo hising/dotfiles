@@ -43,7 +43,7 @@ font:
     style: Italic
 
   # Point size of the font
-  size: 10
+  size: 12
 
   # Offset is the extra space around each character. offset.y can be thought of
   # as modifying the linespacing, and offset.x as modifying the letter spacing.
@@ -102,30 +102,30 @@ font:
 colors:
   # Default colors
   primary:
-    background: '0x002632'
-    foreground: '0x00ecef'
+    background: '0x293036'
+    foreground: '0xebf0f5'
 
   # Normal colors
   normal:
-    black:   '0x002632'
+    black:   '0x1d1d1d'
     red:     '0x00cc66'
-    green:   '0x00b5bd'
-    yellow:  '0x00f0c6'
-    blue:    '0x0081a2'
-    magenta: '0x00b294'
-    cyan:    '0x008abe'
-    white:   '0x00ecef'
+    green:   '0x90be6d'
+    yellow:  '0xeadb2c'
+    blue:    '0x27a2d2'
+    magenta: '0x8c5188'
+    cyan:    '0x31b1ce'
+    white:   '0xebf0f5'
 
   # Bright colors
   bright:
-    black:   '0x007078'
-    red:     '0x00cc66'
-    green:   '0x002632'
-    yellow:  '0x003747'
+    black:   '0x999999'
+    red:     '0xf1a698'
+    green:   '0xcde2bd'
+    yellow:  '0xf6efa0'
     blue:    '0x00b5bd'
-    magenta: '0x00ecef'
-    cyan:    '0x00cc66'
-    white:   '0x00ffff'
+    magenta: '0xd982d3'
+    cyan:    '0x53d6f3'
+    white:   '0xebf0f5'
 
 # Visual Bell
 #
