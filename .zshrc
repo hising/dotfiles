@@ -75,7 +75,8 @@ export GOPATH=$HOME/go
 
 # Aliases
 alias vim=nvim
-alias ls='ls --color=auto'
+alias ls=exa
+# alias ls='ls --color=auto'
 alias dotgit='git --work-tree $HOME --git-dir $HOME/.dot_git'
 
 man() {
