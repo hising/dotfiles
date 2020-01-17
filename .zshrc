@@ -124,6 +124,10 @@ bindkey -M emacs '^N' history-beginning-search-forward
 ## vim
 export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
 
+## nvm
+
+[[ -s $HOME/.nvm/nvm.sh ]] && . $HOME/.nvm/nvm.sh  # This loads NVM
+
 # Base16 Shell
 BASE16_SHELL="$HOME/.config/base16-shell/"
 [ -n "$PS1" ] && \
