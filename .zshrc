@@ -1,6 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
-
+export PATH="$PATH:$HOME/.config/composer/vendor/bin";
 # Path to your oh-my-zsh installation.
 
 # Set name of the theme to load --- if set to "random", it will
@@ -82,7 +82,7 @@ if ! zplug check --verbose; then
     fi
 fi
 
-zplug load --verbose
+zplug load
 
 # User configuration
 
