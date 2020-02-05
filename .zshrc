@@ -1,6 +1,7 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 export PATH="$PATH:$HOME/.config/composer/vendor/bin";
+export PATH="$PATH:$HOME/development/flutter/bin/flutter";
 # Path to your oh-my-zsh installation.
 
 # Set name of the theme to load --- if set to "random", it will
@@ -121,8 +122,24 @@ bindkey "^[[B" history-substring-search-down
 bindkey -M emacs '^P' history-beginning-search-backward
 bindkey -M emacs '^N' history-beginning-search-forward
 
+
+export HISTFILE=~/.zsh_history
+export HISTSIZE=20000
+export SAVEHIST=20000
+export LPASS_AGENT_TIMEOUT=900
+export WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
+
 ## vim
 export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
+
+setopt extended_history
+setopt hist_expire_dups_first
+setopt hist_ignore_dups
+setopt hist_ignore_space
+setopt hist_verify
+setopt inc_append_history
+# setopt append_history
+setopt share_history
 
 ## nvm
 
