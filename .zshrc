@@ -60,8 +60,11 @@ e ()
   nvr --remote $(readlink -f "$@")
 }
 
+test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
+
 # Misc Apps
 export ENABLE_FLUTTER_DESKTOP=true
+export PATH=$PATH:/home/hising/Tools/flutter/bin
 export ANDROID_HOME=/home/hising/Android/Sdk
 export PATH=$PATH:$ANDROID_HOME/tools
 export PATH=$PATH:$ANDROID_HOME/platform-tools
@@ -78,6 +81,10 @@ alias vim=nvim
 alias ls=exa
 # alias ls='ls --color=auto'
 alias dotgit='git --work-tree $HOME --git-dir $HOME/.dot_git'
+
+alias dev="cd ~/src/github.com"
+alias personal="cd ~/src/github.com/hising"
+alias yetric="cd ~/src/github.com/yetric"
 
 man() {
     LESS_TERMCAP_md=$'\e[01;31m' \
