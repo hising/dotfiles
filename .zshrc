@@ -99,7 +99,6 @@ zplug load
 #   export EDITOR='mvim'
 # fi
 
-<<<<<<< HEAD
 ## vim
 export NVIM_LISTEN_ADDRESS=/tmp/nvimsocket
 e ()
@@ -126,25 +125,10 @@ export GOPATH=$HOME/go
 
 # Aliases
 alias vim=nvim
-=======
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-#
->>>>>>> d164b0ec03fc57d554bd7e767a693c2ff4f1fd46
 alias ls=exa
 alias xc='xclip -selection clipboard'
 alias dotgit='git --work-tree $HOME --git-dir $HOME/.dot_git'
 
-<<<<<<< HEAD
 alias dev="cd ~/src/github.com"
 alias personal="cd ~/src/github.com/hising"
 alias yetric="cd ~/src/github.com/yetric"
@@ -158,9 +142,7 @@ man() {
     LESS_TERMCAP_us=$'\e[01;32m' \
     command man "$@"
 }
-=======
 
->>>>>>> d164b0ec03fc57d554bd7e767a693c2ff4f1fd46
 bindkey -e
 bindkey "^[[A" history-substring-search-up
 bindkey "^[[B" history-substring-search-down
